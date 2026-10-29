@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LearnSphere helps you learn practical skills through expert-led online courses.">
+    <title>LearnSphere | Learn Without Limits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Fixed navigation -->
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+        <a class="brand" href="#home">
+    <img src="logo1.png" alt="LearnSphere Logo" class="logo">
+</a>
+            <ul class="nav-links">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#benefits">Why LearnSphere</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a class="sign-in" href="#dashboard">Sign In</a>
+                <a class="button button-small" href="#courses">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero section-space" id="home">
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+            <div class="hero-inner container">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR NEXT CHAPTER STARTS HERE</p>
+                    <h1>Learn new skills.<br><span>Shape your future.</span></h1>
+                    <p class="hero-description">
+                        Explore practical courses led by industry experts and build skills
+                        that move your goals forward — one lesson at a time.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button" href="#courses">Explore Courses <span aria-hidden="true">→</span></a>
+                        <a class="text-link" href="#benefits">Discover how it works <span aria-hidden="true">↗</span></a>
+                    </div>
+                    <div class="hero-proof">
+                        <div class="avatar-stack" aria-label="A group of learners">
+                            <span class="mini-avatar avatar-a">A</span>
+                            <span class="mini-avatar avatar-b">M</span>
+                            <span class="mini-avatar avatar-c">S</span>
+                            <span class="mini-avatar avatar-d">+</span>
+                        </div>
+                        <p><strong>25,000+</strong><br><span>learners growing with us</span></p>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-image-wrap">
+                        <img src="web3.jpg" alt="Student learning online with a laptop">
+                        <div class="floating-card course-float">
+                            <span class="float-icon purple-icon">✦</span>
+                            <div><strong>Keep your streak!</strong><small>4 days of learning</small></div>
+                        </div>
+                        <div class="floating-card progress-float">
+                            <div class="progress-top"><span>Weekly goal</span><strong>78%</strong></div>
+                            <div class="progress-track"><span style="width: 78%"></span></div>
+                            <small>You're making great progress</small>
+                        </div>
+                    </div>
+                    <div class="hero-caption"><span class="caption-dot"></span> Learn at your pace, from anywhere.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search and categories -->
+        <section class="search-section container" aria-label="Find a course">
+            <div class="search-panel">
+                <div class="search-copy">
+                    <span class="search-icon" aria-hidden="true">⌕</span>
+                    <div>
+                        <strong>What do you want to learn?</strong>
+                        <p>Search 500+ expert-led courses</p>
+                    </div>
+                </div>
+                <form class="course-search" action="#courses">
+                    <label class="visually-hidden" for="course-query">Search courses</label>
+                    <input id="course-query" name="q" type="search" placeholder="Try “web development”">
+                    <button class="button" type="submit">Search Courses</button>
+                </form>
+            </div>
+            <div class="category-shortcuts">
+                <span>Popular:</span>
+                <a href="#categories">Development</a>
+                <a href="#categories">UI/UX Design</a>
+                <a href="#categories">Business</a>
+                <a href="#categories">Marketing</a>
+                <a href="#categories">Data & AI</a>
+            </div>
+        </section>
+
+        <!-- Popular courses -->
+        <section class="courses-section section-space" id="courses">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">LEARN SOMETHING NEW</p>
+                        <h2>Popular courses</h2>
+                        <p class="section-description">Hand-picked learning paths to help you build real-world skills.</p>
+                    </div>
+                    <a class="text-link" href="#categories">View all courses <span aria-hidden="true">→</span></a>
+                </div>
+
+                <div class="course-grid">
+                    <article class="course-card">
+                        <div class="course-image">
+                            <img src="web2.jpg" alt="Laptop with code on screen">
+                            <span class="course-tag tag-blue">Bestseller</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-meta"><span>Development</span><span class="level">Beginner</span></div>
+                            <h3>Web Development from Zero</h3>
+                            <p class="instructor">with <strong>Daniel Carter</strong></p>
+                            <div class="rating-row"><span class="stars">★★★★★</span><strong>4.9</strong><span class="rating-count">(2.4k)</span><span class="course-duration">12h 30m</span></div>
+                            <div class="course-bottom"><strong class="price">$39.00</strong><a href="#dashboard" class="card-link">View course <span>→</span></a></div>
+                        </div>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-image">
+                            <img src="UI.jpg" alt="Creative interface design workspace">
+                            <span class="course-tag tag-purple">Popular</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-meta"><span>Design</span><span class="level">Intermediate</span></div>
+                            <h3>UI/UX Design Essentials</h3>
+                            <p class="instructor">with <strong>Sofia Bennett</strong></p>
+                            <div class="rating-row"><span class="stars">★★★★★</span><strong>4.8</strong><span class="rating-count">(1.8k)</span><span class="course-duration">8h 15m</span></div>
+                            <div class="course-bottom"><strong class="price">$29.00</strong><a href="#dashboard" class="card-link">View course <span>→</span></a></div>
+                        </div>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-image">
+                            <img src="web2.jpg" alt="Team planning a business project">
+                            <span class="course-tag tag-green">New</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-meta"><span>Business</span><span class="level">Beginner</span></div>
+                            <h3>Project Management Basics</h3>
+                            <p class="instructor">with <strong>Michael Reed</strong></p>
+                            <div class="rating-row"><span class="stars">★★★★★</span><strong>4.7</strong><span class="rating-count">(960)</span><span class="course-duration">6h 40m</span></div>
+                            <div class="course-bottom"><strong class="price">$24.00</strong><a href="#dashboard" class="card-link">View course <span>→</span></a></div>
+                        </div>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-image">
+                            <img src="data.jpg" alt="Analytics charts on a computer screen">
+                            <span class="course-tag tag-blue">Trending</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-meta"><span>Data & AI</span><span class="level">Intermediate</span></div>
+                            <h3>Data Analytics with Python</h3>
+                            <p class="instructor">with <strong>Priya Sharma</strong></p>
+                            <div class="rating-row"><span class="stars">★★★★★</span><strong>4.9</strong><span class="rating-count">(1.2k)</span><span class="course-duration">10h 20m</span></div>
+                            <div class="course-bottom"><strong class="price">$35.00</strong><a href="#dashboard" class="card-link">View course <span>→</span></a></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="categories-section section-space" id="categories">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">FIND YOUR DIRECTION</p>
+                        <h2>Explore by category</h2>
+                        <p class="section-description">Follow your curiosity and discover your next skill.</p>
+                    </div>
+                </div>
+                <div class="category-grid">
+                    <a class="category-card" href="#courses"><span class="category-icon icon-purple">⌘</span><span><strong>Development</strong><small>120+ courses</small></span><span class="category-arrow">↗</span></a>
+                    <a class="category-card" href="#courses"><span class="category-icon icon-blue">✧</span><span><strong>Design & UX</strong><small>85+ courses</small></span><span class="category-arrow">↗</span></a>
+                    <a class="category-card" href="#courses"><span class="category-icon icon-peach">▤</span><span><strong>Business</strong><small>70+ courses</small></span><span class="category-arrow">↗</span></a>
+                    <a class="category-card" href="#courses"><span class="category-icon icon-green">⌁</span><span><strong>Data & AI</strong><small>95+ courses</small></span><span class="category-arrow">↗</span></a>
+                    <a class="category-card" href="#courses"><span class="category-icon icon-yellow">◎</span><span><strong>Marketing</strong><small>60+ courses</small></span><span class="category-arrow">↗</span></a>
+                    <a class="category-card" href="#courses"><span class="category-icon icon-pink">✎</span><span><strong>Writing</strong><small>45+ courses</small></span><span class="category-arrow">↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits -->
+        <section class="benefits-section section-space" id="benefits">
+            <div class="container benefits-layout">
+                <div class="benefits-visual">
+                    <img src="team.jpg" alt="Learners collaborating around a table">
+                    <div class="benefit-note"><span class="benefit-check">✓</span><div><strong>Skills that stick</strong><small>Learn by doing, not just watching.</small></div></div>
+                </div>
+                <div class="benefits-copy">
+                    <p class="eyebrow">A BETTER WAY TO LEARN</p>
+                    <h2>Small steps today.<br><span>Big possibilities tomorrow.</span></h2>
+                    <p class="section-description">Build confidence with flexible learning designed around your life, goals, and pace.</p>
+                    <div class="benefit-list">
+                        <div class="benefit-item"><span class="benefit-number">01</span><div><h3>Learn from practitioners</h3><p>Get practical insights from instructors with real-world experience.</p></div></div>
+                        <div class="benefit-item"><span class="benefit-number">02</span><div><h3>Study on your schedule</h3><p>Revisit lessons anytime and make progress at a pace that works for you.</p></div></div>
+                        <div class="benefit-item"><span class="benefit-number">03</span><div><h3>Show what you know</h3><p>Complete courses and celebrate your progress with certificates.</p></div></div>
+                    </div>
+                    <a class="button" href="#courses">Start learning today <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials-section section-space" id="testimonials">
+            <div class="container">
+                <div class="section-heading centered-heading">
+                    <div>
+                        <p class="eyebrow">LEARNERS LOVE LEARNSPHERE</p>
+                        <h2>Real progress, real stories</h2>
+                        <p class="section-description">A little encouragement can make a big difference.</p>
+                    </div>
+                </div>
+                <div class="testimonial-grid">
+                    <blockquote class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p>“The lessons are clear and practical. I built my first portfolio website while following along.”</p>
+                        <footer><span class="testimonial-avatar avatar-a">AM</span><span><strong>Amelia Morgan</strong><small>Web Development student</small></span></footer>
+                    </blockquote>
+                    <blockquote class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p>“I love being able to learn after work. The progress tracker keeps me motivated every week.”</p>
+                        <footer><span class="testimonial-avatar avatar-b">JL</span><span><strong>James Lee</strong><small>Business student</small></span></footer>
+                    </blockquote>
+                    <blockquote class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p>“The design course helped me understand the thinking behind great user experiences.”</p>
+                        <footer><span class="testimonial-avatar avatar-c">SK</span><span><strong>Sara Khan</strong><small>UI/UX Design student</small></span></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Static student dashboard preview -->
+        <section class="dashboard-section section-space" id="dashboard">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">YOUR LEARNING SPACE</p>
+                        <h2>Student dashboard</h2>
+                        <p class="section-description">A quick look at how learners can track their progress.</p>
+                    </div>
+                    <a class="text-link" href="#courses">Find another course <span aria-hidden="true">→</span></a>
+                </div>
+
+                <div class="dashboard-shell">
+                    <aside class="dashboard-sidebar">
+                        <div class="dashboard-user"><span class="user-avatar">AM</span><div><strong>Alex Morgan</strong><small>Pro learner</small></div></div>
+                        <p class="dashboard-nav-label">LEARNING</p>
+                        <a class="dashboard-nav active" href="#dashboard"><span>▦</span> Overview</a>
+                        <a class="dashboard-nav" href="#enrolled"><span>▤</span> My Courses</a>
+                        <a class="dashboard-nav" href="#lessons"><span>◷</span> Schedule</a>
+                        <a class="dashboard-nav" href="#certificates"><span>✧</span> Certificates</a>
+                        <div class="dashboard-side-note"><span>✦</span><strong>Keep it up!</strong><small>You're building a great learning habit.</small></div>
+                    </aside>
+
+                    <div class="dashboard-main">
+                        <div class="dashboard-welcome">
+                            <div><p class="dashboard-date">MONDAY, OCTOBER 26</p><h3>Welcome back, Alex! <span>✦</span></h3><p>Ready to make a little more progress today?</p></div>
+                            <div class="streak-pill">🔥 4-day streak</div>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-card"><span class="stat-icon stat-purple">▤</span><small>Enrolled courses</small><strong>04</strong><span class="stat-caption">2 in progress</span></div>
+                            <div class="stat-card"><span class="stat-icon stat-blue">◷</span><small>Learning hours</small><strong>18.5</strong><span class="stat-caption">This month</span></div>
+                            <div class="stat-card"><span class="stat-icon stat-green">✧</span><small>Certificates</small><strong>02</strong><span class="stat-caption">Earned so far</span></div>
+                        </div>
+
+                        <div class="dashboard-columns">
+                            <section class="dashboard-panel" id="enrolled">
+                                <div class="panel-heading"><h3>Continue learning</h3><a href="#courses">View all</a></div>
+                                <article class="enrolled-course">
+                                    <img src="web1.jpg" alt="Web development course thumbnail">
+                                    <div class="enrolled-info"><strong>Web Development from Zero</strong><small>Lesson 8 of 24</small><div class="progress-track"><span style="width: 68%"></span></div><small class="progress-label">68% complete</small></div>
+                                    <a class="continue-button" href="#courses" aria-label="Continue web development course">→</a>
+                                </article>
+                                <article class="enrolled-course">
+                                    <img src="UI.jpg" alt="UI UX design course thumbnail">
+                                    <div class="enrolled-info"><strong>UI/UX Design Essentials</strong><small>Lesson 5 of 18</small><div class="progress-track"><span class="purple-progress" style="width: 35%"></span></div><small class="progress-label">35% complete</small></div>
+                                    <a class="continue-button" href="#courses" aria-label="Continue UI UX design course">→</a>
+                                </article>
+                            </section>
+
+                            <section class="dashboard-panel" id="lessons">
+                                <div class="panel-heading"><h3>Upcoming lessons</h3><a href="#lessons">Schedule</a></div>
+                                <div class="lesson-item"><span class="lesson-date"><strong>28</strong><small>OCT</small></span><span class="lesson-detail"><strong>CSS Grid in Practice</strong><small>Web Development · 10:30 AM</small></span><span class="lesson-type">VIDEO</span></div>
+                                <div class="lesson-item"><span class="lesson-date purple-date"><strong>29</strong><small>OCT</small></span><span class="lesson-detail"><strong>Designing for Users</strong><small>UI/UX Design · 2:00 PM</small></span><span class="lesson-type">VIDEO</span></div>
+                                <div class="lesson-item"><span class="lesson-date green-date"><strong>31</strong><small>OCT</small></span><span class="lesson-detail"><strong>Build Your First Project</strong><small>Web Development · 11:00 AM</small></span><span class="lesson-type">TASK</span></div>
+                            </section>
+                        </div>
+
+                        <section class="dashboard-panel certificate-panel" id="certificates">
+                            <div class="certificate-icon">✧</div>
+                            <div><h3>Your next certificate is within reach!</h3><p>Complete 32% more of Web Development from Zero to earn your next certificate.</p></div>
+                            <a class="certificate-link" href="#enrolled">View progress →</a>
+                        </section>
+                    </div>
+                </div>
+                <p class="dashboard-disclaimer">Dashboard shown as a static front-end preview for this HTML/CSS assignment. Sign-in, search filtering, and course tracking are not connected to a backend.</p>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="final-cta">
+            <div class="container cta-inner">
+                <div><p class="eyebrow">YOUR FUTURE IS A SKILL AWAY</p><h2>Ready to learn something great?</h2><p>Choose a course and take your next step with LearnSphere.</p></div>
+                <a class="button button-light" href="#courses">Browse courses <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer stays at the bottom on short pages -->
+    <footer class="site-footer" id="footer">
+        <div class="footer-grid container">
+            <div class="footer-brand-column">
+                    <a class="brand" href="#home">
+    <img src="logo1.png" alt="LearnSphere Logo" class="logo">
+</a>
+                <p>Make learning a part of your everyday life. Build skills for the future you want.</p>
+                <div class="social-links"><a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a><a href="https://www.instagram.com/" aria-label="Instagram">ig</a><a href="https://www.facebook.com/" aria-label="Facebook">f</a></div>
+            </div>
+            <div><h3>Explore</h3><ul><li><a href="#courses">Popular Courses</a></li><li><a href="#categories">Categories</a></li><li><a href="#benefits">Why LearnSphere</a></li><li><a href="#dashboard">Student Dashboard</a></li></ul></div>
+            <div><h3>LearnSphere</h3><ul><li><a href="#benefits">About Us</a></li><li><a href="#testimonials">Student Stories</a></li><li><a href="#footer">Help Center</a></li><li><a href="#footer">Privacy Policy</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 LearnSphere. All rights reserved.</p><p>Designed for curious minds <span>♥</span></p></div>
+    </footer>
+</body>
+</html>
